@@ -1,0 +1,1 @@
+export const SERVER_DOMAIN = import.meta.env.VITE_SERVER_BASE_URL || "http://localhost:3008";
