@@ -12,7 +12,7 @@ const app = express();
 // Middleware
 // Configure CORS properly
 const corsOptions = {
-    origin: 'http://localhost:5173',
+    origin: 'https://pulsechecker-1.onrender.com',
     methods: ['GET', 'POST', 'PUT', 'DELETE', 'PATCH', 'OPTIONS'],
     allowedHeaders: ['Content-Type', 'Authorization'],
     credentials: true
